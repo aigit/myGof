@@ -1,8 +1,7 @@
 import org.junit.jupiter.api.Test;
+import org.pattern.protype.protype.Student;
 
 import java.io.InputStream;
-import java.io.PrintStream;
-import java.io.PrintWriter;
 
 public class MyTest {
 
@@ -15,5 +14,14 @@ public class MyTest {
         int read = inputStream.read(bytes);
         System.out.println(new String(bytes,0,read,"gbk"));
         inputStream.close();
+    }
+
+    @Test
+    public void test() throws CloneNotSupportedException {
+        Student student = new Student();
+        student.show();
+        Student a = student.clone();
+        a.show();
+
     }
 }
