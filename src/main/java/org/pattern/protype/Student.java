@@ -1,4 +1,4 @@
-package org.pattern.protype.protype;
+package org.pattern.protype;
 
 
 import lombok.extern.slf4j.Slf4j;

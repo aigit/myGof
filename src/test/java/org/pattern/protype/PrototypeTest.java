@@ -1,7 +1,6 @@
 package org.pattern.protype;
 
 import org.junit.jupiter.api.Test;
-import org.pattern.protype.protype.Student;
 
 public class PrototypeTest {
 

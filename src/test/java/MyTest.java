@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import org.pattern.protype.protype.Student;
+import org.pattern.protype.Student;
 
 import java.io.InputStream;
 
